@@ -51,6 +51,7 @@ p{
     border-top-right-radius: 1em;
 }
 .card{
+    margin-bottom: 15px;
     border-top-left-radius: 0.5em;
     border-top-right-radius: 0.5em;
 }
