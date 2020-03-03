@@ -93,6 +93,12 @@ p{
         align-items: center;
     }
   } */
+  #card-two{
+    box-shadow: #80808026 -1px 11px 10px 7px
+  }
+  #card-three{
+    box-shadow: #80808026 -1px 11px 10px 7px
+  }
 #card-four{
     /* width: 18rem; */
     display: table;
