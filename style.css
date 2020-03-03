@@ -4,6 +4,7 @@
     padding: 0;
     display: flex;
     flex-direction: column;
+    /* flex-wrap: wrap; */
 }
 .header{
     padding: 4em;
@@ -25,6 +26,7 @@ p{
 .card-div{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-bottom: 1em;
     padding: 1em;
 }
@@ -53,6 +55,7 @@ p{
     border-top-right-radius: 1em;
 }
 .card{
+    /* flex-wrap: wrap; */
     margin-bottom: 15px;
     border-top-left-radius: 0.5em;
     border-top-right-radius: 0.5em;
@@ -81,6 +84,7 @@ p{
   } */
 #card-one{
     /* width: 18rem; */
+    flex-wrap: wrap;
     display: table;
     margin-top: 7em;
     box-shadow: #80808026 -1px 11px 10px 7px;
@@ -94,20 +98,31 @@ p{
     }
   } */
   #card-two{
+      flex-wrap: wrap;
     box-shadow: #80808026 -1px 11px 10px 7px
   }
   #card-three{
+      flex-wrap: wrap;
     box-shadow: #80808026 -1px 11px 10px 7px
   }
 #card-four{
     /* width: 18rem; */
+    flex-wrap: wrap;
     display: table;
     margin-top: 7em;
     box-shadow: #80808026 -1px 11px 10px 7px;
 }
-
 .cards-sec{
     display: flex;
     flex-direction: column;
     padding: 1em;
 }
+.btn-primary{
+    float: right;
+}
+@media screen and (max-width:320px) {
+    .card-div.card-four{
+        width: 100%;
+        margin-top: 1em
+    }
+  } 
